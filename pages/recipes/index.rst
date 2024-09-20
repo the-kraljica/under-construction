@@ -1,4 +1,4 @@
-.. title: Under construction
+.. title: Recipes
 .. slug: index
 .. date: 2024-09-18 17:33:19 UTC+02:00
 .. tags: 

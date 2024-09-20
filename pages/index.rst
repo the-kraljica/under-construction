@@ -8,3 +8,9 @@
 .. type: text
 
 Under construction
+
+`A link <link://slug/pg2>`_
+
+`Another link <link://slug/pg3>`_
+
+`Yet another link <link://slug/pg4>`_
