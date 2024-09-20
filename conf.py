@@ -16,8 +16,8 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "Nikola Tesla"  # (translatable)
-BLOG_TITLE = "My Site"  # (translatable)
+BLOG_AUTHOR = "the-kraljica"  # (translatable)
+BLOG_TITLE = "Kraljica's Cookbook"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://example.com/"
@@ -25,7 +25,7 @@ SITE_URL = "https://example.com/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
 BLOG_EMAIL = "n.tesla@example.com"
-BLOG_DESCRIPTION = "This is a demo site for Nikola."  # (translatable)
+BLOG_DESCRIPTION = "Under construction"  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -235,17 +235,12 @@ THEME_CONFIG = {
 #         ("pages/*.md", {"en": "pages", "de": "seiten"}, "page.tmpl"),
 #     )
 
-POSTS = (
-    ("posts/*.rst", "posts", "post.tmpl"),
-    ("posts/*.md", "posts", "post.tmpl"),
-    ("posts/*.txt", "posts", "post.tmpl"),
-    ("posts/*.html", "posts", "post.tmpl"),
-)
+POSTS = ()
 PAGES = (
-    ("pages/*.rst", "pages", "page.tmpl"),
-    ("pages/*.md", "pages", "page.tmpl"),
-    ("pages/*.txt", "pages", "page.tmpl"),
-    ("pages/*.html", "pages", "page.tmpl"),
+    ("pages/*.rst""", "", "page.tmpl"),
+    ("pages/*.md""", "", "page.tmpl"),
+    ("pages/*.txt""", "", "page.tmpl"),
+    ("pages/*.html""", "", "page.tmpl"),
 )
 
 
@@ -1354,7 +1349,7 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 
 # Special settings to disable only parts of the indexes plugin.
 # Use with care.
-# DISABLE_INDEXES = False
+DISABLE_INDEXES = True
 # DISABLE_MAIN_ATOM_FEED = False
 # DISABLE_MAIN_RSS_FEED = False
 
