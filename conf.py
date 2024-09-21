@@ -17,15 +17,15 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "the-kraljica"  # (translatable)
-BLOG_TITLE = "Kraljica's Cookbook"  # (translatable)
+BLOG_TITLE = "My Cookbook"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://example.com/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
-BLOG_EMAIL = "n.tesla@example.com"
-BLOG_DESCRIPTION = "Under construction"  # (translatable)
+BLOG_EMAIL = ""
+BLOG_DESCRIPTION = ""  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -142,12 +142,20 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archive"),
-        ("/categories/", "Tags"),
-        ("/rss.xml", "RSS feed"),
+        ("/index.html", "Home"),
         ("/recipes/", "Recipes"),
     ),
 }
+
+# Default links
+# NAVIGATION_LINKS = {
+#     DEFAULT_LANG: (
+#         ("/archive.html", "Archive"),
+#         ("/categories/", "Tags"),
+#         ("/rss.xml", "RSS feed"),
+#         ("/recipes/", "Recipes"),
+#     ),
+# }
 
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
 # although themes may not always support them. (translatable)
@@ -157,8 +165,8 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "bootblog4"
-#THEME = "yesplease"
+#THEME = "bootblog4"
+THEME = "lanyon"
 
 # A theme color. In default themes, it might be displayed by some browsers as
 # the browser UI color (eg. Chrome on Android). Other themes might also use it
