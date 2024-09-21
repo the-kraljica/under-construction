@@ -1,4 +1,4 @@
-Sitemap: https://example.com/sitemapindex.xml
+Sitemap: https://the-kraljica.github.io/under-construction/sitemapindex.xml
 
 User-Agent: *
-Host: example.com
+Host: the-kraljica.github.io

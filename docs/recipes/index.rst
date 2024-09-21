@@ -7,10 +7,6 @@
 .. description: 
 .. type: text
 
-Under construction
-
-`A link <link://slug/pg2>`_
-
-`Another link <link://slug/pg3>`_
-
-`Yet another link <link://slug/pg4>`_
+* `Bean stew <link://slug/bean_stew>`_
+* `Mushroom soup <link://slug/mushroom_soup>`_
+* `Mayonnaise <link://slug/mayo>`_
